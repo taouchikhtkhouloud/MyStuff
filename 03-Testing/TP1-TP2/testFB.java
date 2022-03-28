@@ -30,7 +30,7 @@ class testFB {
 	public final void testFizzde() {
 		
 		String res = FizzBuzz.fizzBuzz(3);
-		assertEquals("Fizz", res, "Problème dans 3");
+		assertEquals("Fizz", res, "ProblÃ¨me dans 3");
 	}
 	*/
 
@@ -55,7 +55,7 @@ class testFB {
 		System.out.println("init");
 	}
 	
-	/*
+	
 	
 	@BeforeEach
 	public void init() {
@@ -67,7 +67,7 @@ class testFB {
 		a=null;
 		System.out.println("end");
 	}
-	*/
+	
 	@Test
 	public final void testTranslater0_0() {
 		//Point a = new Point(1,2);
